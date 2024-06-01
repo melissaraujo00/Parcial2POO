@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+h2 {
+    text-align: center;
+}
+
+table {
+    width: 90%; 
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+
+table th, table td {
+    padding: 8px;
+    text-align: left;
+}
+
+table th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table tr:hover {
+    background-color: #ddd;
+}
+
+.btn {
+    display: inline-block;
+    padding: 8px 12px;
+    margin: 30px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    
+}
+
+.btn:hover {
+    background-color: #45a049;
+}
+
+.btn1 {
+    display: inline-block;
+    padding: 8px 12px;
+    margin: 4px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #eda04f;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn1:hover {
+    background-color: #edbc66;
+}
+
+.btn2 {
+    display: inline-block;
+    padding: 8px 12px;
+    margin: 4px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #dd3131;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn2:hover {
+    background-color: #d35c58;
+}
+
+.btn3 {
+    display: inline-block;
+    padding: 8px 12px;
+    margin: 4px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #283fc3;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn3:hover {
+    background-color: #5a63c5;
+}
